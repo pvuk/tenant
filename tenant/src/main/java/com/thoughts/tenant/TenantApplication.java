@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author P.V. UdayKiran
  * @version 1, created on Tue 13-Apr-2021 21:51
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "{com.thoughts.tenant, com.thoughts.tenant.*}")
 public class TenantApplication {
 
 	public static void main(String[] args) {
